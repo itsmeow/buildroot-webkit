@@ -1,6 +1,6 @@
-From 7f64afc16c751caa4e7ca59a44846d49d4ccabd8 Mon Sep 17 00:00:00 2001
-From: root <root@vmi422755.contaboserver.net>
-Date: Mon, 10 Aug 2020 04:56:24 +0200
+From b34d9794ec72a5e3e8161d8d579660fe27a1631c Mon Sep 17 00:00:00 2001
+From: itsmeow <mods.itsmeow@gmail.com>
+Date: Mon, 10 Aug 2020 08:47:55 +0200
 Subject: [PATCH] add new splash image
 
 ---
@@ -50,7 +50,7 @@ index 22af68d..54e7ab4 100644
    psplash_fb_draw_image (fb, 
 diff --git a/toldo-splash-img.h b/toldo-splash-img.h
 new file mode 100644
-index 0000000..2fe8b7b
+index 0000000..b1f7469
 --- /dev/null
 +++ b/toldo-splash-img.h
 @@ -0,0 +1,16302 @@
@@ -60,7 +60,7 @@ index 0000000..2fe8b7b
 +#define _IMG_WIDTH (1280)
 +#define _IMG_HEIGHT (720)
 +#define _IMG_BYTES_PER_PIXEL (3) /* 3:RGB, 4:RGBA */
-+#define _IMG_RLE_PIXEL_DATA ((guint8*) \
++#define _IMG_RLE_PIXEL_DATA ((uint8*) \
 +  "\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0" \
 +  "\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0" \
 +  "\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0" \
